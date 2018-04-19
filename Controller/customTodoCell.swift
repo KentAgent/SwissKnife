@@ -12,6 +12,7 @@ class customTodoCell : UITableViewCell {
     
     @IBOutlet weak var todoLabel: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

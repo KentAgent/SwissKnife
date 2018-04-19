@@ -17,6 +17,7 @@
 		35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758C207FEC6900E389D4 /* Assets.xcassets */; };
 		35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758E207FEC6900E389D4 /* LaunchScreen.storyboard */; };
 		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
+		5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DE0172088B5F100C9F794 /* TodoViewController.swift */; };
 		72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE4F6420889AD90038D292 /* MapKit.framework */; };
 		72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		35D8758F207FEC6900E389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D87591207FEC6900E389D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
+		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				35090CC5207FEF9300AEA18D /* MapViewController.swift */,
 				35090CC7207FF01100AEA18D /* RandomGameViewController.swift */,
 				5D299ECE20888DF300B0F061 /* customTodoCell.swift */,
+				5D7DE0172088B5F100C9F794 /* TodoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D87588207FEC6900E389D4 /* ViewController.swift in Sources */,
+				5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */,
 				35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */,
 				35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */,
 				35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */,
