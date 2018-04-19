@@ -18,6 +18,7 @@
 		35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758E207FEC6900E389D4 /* LaunchScreen.storyboard */; };
 		5301DC202088BC4100ADD90F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */; };
 		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
+		5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DE0172088B5F100C9F794 /* TodoViewController.swift */; };
 		72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE4F6420889AD90038D292 /* MapKit.framework */; };
 		72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */; };
 		DE5FC6E81A1DF2EDC601776F /* Pods_SwissKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */; };
@@ -38,7 +39,11 @@
 		4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.release.xcconfig"; sourceTree = "<group>"; };
 		5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 65fdf50bf5009e6b244d638c4ad0a2119fe44c07
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
 		9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwissKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +120,7 @@
 				35090CC5207FEF9300AEA18D /* MapViewController.swift */,
 				35090CC7207FF01100AEA18D /* RandomGameViewController.swift */,
 				5D299ECE20888DF300B0F061 /* customTodoCell.swift */,
+				5D7DE0172088B5F100C9F794 /* TodoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D87588207FEC6900E389D4 /* ViewController.swift in Sources */,
+				5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */,
 				35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */,
 				35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */,
 				35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */,
