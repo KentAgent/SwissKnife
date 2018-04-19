@@ -10,6 +10,8 @@ import UIKit
 
 class TicTacToeViewController: UIViewController {
     
+    var serverName = ""
+    
     @IBOutlet weak var infoLabel: UILabel!
     
     @IBOutlet weak var Button10: UIButton!
@@ -35,7 +37,10 @@ class TicTacToeViewController: UIViewController {
     }
     
     @IBAction func joinGameBtn(_ sender: UIButton) {
-        print("Join server")
+        
+        serverName = self.serverTextField.text!
+        
+        print("Joining \(serverName)")
     }
     
     
