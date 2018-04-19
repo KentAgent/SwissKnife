@@ -16,10 +16,12 @@
 		35D8758B207FEC6900E389D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D87589207FEC6900E389D4 /* Main.storyboard */; };
 		35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758C207FEC6900E389D4 /* Assets.xcassets */; };
 		35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758E207FEC6900E389D4 /* LaunchScreen.storyboard */; };
+		5301DC202088BC4100ADD90F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */; };
 		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
 		5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DE0172088B5F100C9F794 /* TodoViewController.swift */; };
 		72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE4F6420889AD90038D292 /* MapKit.framework */; };
 		72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */; };
+		DE5FC6E81A1DF2EDC601776F /* Pods_SwissKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +36,17 @@
 		35D8758C207FEC6900E389D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D8758F207FEC6900E389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D87591207FEC6900E389D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.release.xcconfig"; sourceTree = "<group>"; };
+		5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
+=======
 		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 65fdf50bf5009e6b244d638c4ad0a2119fe44c07
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
+		9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwissKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */,
+				DE5FC6E81A1DF2EDC601776F /* Pods_SwissKnife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +71,7 @@
 				35D87584207FEC6900E389D4 /* SwissKnife */,
 				35D87583207FEC6900E389D4 /* Products */,
 				72BE4F6320889AD90038D292 /* Frameworks */,
+				60960D13E37E38FF9717D0A6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +88,7 @@
 			children = (
 				35D87585207FEC6900E389D4 /* AppDelegate.swift */,
 				35D87591207FEC6900E389D4 /* Info.plist */,
+				5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */,
 			);
 			path = SwissKnife;
 			sourceTree = "<group>";
@@ -113,10 +125,20 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		60960D13E37E38FF9717D0A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */,
+				4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		72BE4F6320889AD90038D292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				72BE4F6420889AD90038D292 /* MapKit.framework */,
+				9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35D87594207FEC6900E389D4 /* Build configuration list for PBXNativeTarget "SwissKnife" */;
 			buildPhases = (
+				7595EFA1F0E3C01F4D720984 /* [CP] Check Pods Manifest.lock */,
 				35D8757E207FEC6900E389D4 /* Sources */,
 				35D8757F207FEC6900E389D4 /* Frameworks */,
 				35D87580207FEC6900E389D4 /* Resources */,
+				ADA745E620EFCBE30F50B4A5 /* [CP] Embed Pods Frameworks */,
+				3CB398336848AA7C4F5A4ECB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +211,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */,
+				5301DC202088BC4100ADD90F /* GoogleService-Info.plist in Resources */,
 				35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */,
 				35D8758B207FEC6900E389D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB398336848AA7C4F5A4ECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7595EFA1F0E3C01F4D720984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwissKnife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA745E620EFCBE30F50B4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35D8757E207FEC6900E389D4 /* Sources */ = {
@@ -345,6 +431,7 @@
 		};
 		35D87595207FEC6900E389D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +447,7 @@
 		};
 		35D87596207FEC6900E389D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
