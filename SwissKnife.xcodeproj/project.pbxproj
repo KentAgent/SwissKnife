@@ -39,11 +39,8 @@
 		4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.release.xcconfig"; sourceTree = "<group>"; };
 		5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
-=======
 		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
->>>>>>> 65fdf50bf5009e6b244d638c4ad0a2119fe44c07
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
 		9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwissKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
