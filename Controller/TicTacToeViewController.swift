@@ -22,47 +22,50 @@ class TicTacToeViewController: UIViewController {
     @IBOutlet weak var Button31: UIButton!
     @IBOutlet weak var Button32: UIButton!
     
-
+    @IBOutlet weak var serverTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func btnPressed1(_ sender: UIButton) {
-        print("pressed 1.0")
+    @IBAction func newGameBtn(_ sender: UIButton) {
+        print("play new game")
     }
     
-    @IBAction func btnPressed2(_ sender: UIButton) {
-        print("pressed 1.1")
+    @IBAction func joinGameBtn(_ sender: UIButton) {
+        print("Join server")
     }
     
-    @IBAction func btnPressed3(_ sender: UIButton) {
-        print("pressed 1.3")
-    }
     
-    @IBAction func btnPressed4(_ sender: UIButton) {
-        print("pressed 2.0")
-    }
-    
-    @IBAction func btnPressed5(_ sender: UIButton) {
-        print("pressed 2.1")
-    }
-    
-    @IBAction func btnPressed6(_ sender: UIButton) {
-        print("pressed 2.2")
-    }
-    
-    @IBAction func btnPressed7(_ sender: UIButton) {
-        print("pressed 3.0")
-    }
-    
-    @IBAction func btnPressed8(_ sender: UIButton) {
-        print("pressed 3.1")
-    }
-    
-    @IBAction func btnPressed9(_ sender: UIButton) {
-        print("pressed 3.2")
+    @IBAction func pressPosition(_ sender: UIButton) {
+        guard let button = sender as? UIButton else {
+            return
+        }
+        
+        switch button.tag {
+        case 1 : print("1")
+            return
+        case 2: print("2")
+            return
+        case 3: print("3")
+            return
+        case 4: print("4")
+            return
+        case 5: print("5")
+            return
+        case 6: print("6")
+            return
+        case 7: print("7")
+            return
+        case 8: print("8")
+            return
+        case 9: print("9")
+            return
+        default: print("no such thing")
+            return
+        }
     }
     
     
