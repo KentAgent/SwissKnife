@@ -16,6 +16,7 @@
 		35D8758B207FEC6900E389D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D87589207FEC6900E389D4 /* Main.storyboard */; };
 		35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758C207FEC6900E389D4 /* Assets.xcassets */; };
 		35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758E207FEC6900E389D4 /* LaunchScreen.storyboard */; };
+		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		35D8758C207FEC6900E389D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D8758F207FEC6900E389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D87591207FEC6900E389D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */,
 				35090CC5207FEF9300AEA18D /* MapViewController.swift */,
 				35090CC7207FF01100AEA18D /* RandomGameViewController.swift */,
+				5D299ECE20888DF300B0F061 /* customTodoCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */,
 				35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */,
 				35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */,
+				5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */,
 				35090CC6207FEF9300AEA18D /* MapViewController.swift in Sources */,
 				35090CC4207FEF3F00AEA18D /* TicTacToeViewController.swift in Sources */,
 			);
