@@ -17,6 +17,7 @@
 		35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758C207FEC6900E389D4 /* Assets.xcassets */; };
 		35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D8758E207FEC6900E389D4 /* LaunchScreen.storyboard */; };
 		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
+		72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE4F6420889AD90038D292 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		35D8758F207FEC6900E389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D87591207FEC6900E389D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
+		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +56,7 @@
 				35D87597207FEC9000E389D4 /* Model */,
 				35D87584207FEC6900E389D4 /* SwissKnife */,
 				35D87583207FEC6900E389D4 /* Products */,
+				72BE4F6320889AD90038D292 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +107,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		72BE4F6320889AD90038D292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BE4F6420889AD90038D292 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +148,11 @@
 					35D87581207FEC6900E389D4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
