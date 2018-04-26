@@ -11,6 +11,7 @@
 		35090CC4207FEF3F00AEA18D /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */; };
 		35090CC6207FEF9300AEA18D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC5207FEF9300AEA18D /* MapViewController.swift */; };
 		35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC7207FF01100AEA18D /* RandomGameViewController.swift */; };
+		35CB2CB22091BF39002189DA /* ScrollingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB2CB12091BF39002189DA /* ScrollingBackground.swift */; };
 		35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D87585207FEC6900E389D4 /* AppDelegate.swift */; };
 		35D87588207FEC6900E389D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D87587207FEC6900E389D4 /* ViewController.swift */; };
 		35D8758B207FEC6900E389D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D87589207FEC6900E389D4 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
 		35090CC5207FEF9300AEA18D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		35090CC7207FF01100AEA18D /* RandomGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGameViewController.swift; sourceTree = "<group>"; };
+		35CB2CB12091BF39002189DA /* ScrollingBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingBackground.swift; sourceTree = "<group>"; };
 		35D87582207FEC6900E389D4 /* SwissKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D87585207FEC6900E389D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35D87587207FEC6900E389D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,8 +41,8 @@
 		4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.release.xcconfig"; sourceTree = "<group>"; };
 		5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
-		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
 		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
 		9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwissKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				35090CC7207FF01100AEA18D /* RandomGameViewController.swift */,
 				5D299ECE20888DF300B0F061 /* customTodoCell.swift */,
 				5D7DE0172088B5F100C9F794 /* TodoViewController.swift */,
+				35CB2CB12091BF39002189DA /* ScrollingBackground.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */,
 				35090CC6207FEF9300AEA18D /* MapViewController.swift in Sources */,
 				35090CC4207FEF3F00AEA18D /* TicTacToeViewController.swift in Sources */,
+				35CB2CB22091BF39002189DA /* ScrollingBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +436,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PD8D79ZJR7;
+				DEVELOPMENT_TEAM = S6E23342LP;
 				INFOPLIST_FILE = SwissKnife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = RK.SwissKnife;
+				PRODUCT_BUNDLE_IDENTIFIER = GA.SwissKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,10 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PD8D79ZJR7;
+				DEVELOPMENT_TEAM = S6E23342LP;
 				INFOPLIST_FILE = SwissKnife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = RK.SwissKnife;
+				PRODUCT_BUNDLE_IDENTIFIER = GA.SwissKnife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
