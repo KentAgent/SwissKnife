@@ -20,6 +20,10 @@
 		5301DC202088BC4100ADD90F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5301DC1F2088BC4000ADD90F /* GoogleService-Info.plist */; };
 		5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D299ECE20888DF300B0F061 /* customTodoCell.swift */; };
 		5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DE0172088B5F100C9F794 /* TodoViewController.swift */; };
+		724FA67A2088CE36009E9779 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FA6792088CE36009E9779 /* Player.swift */; };
+		724FA67C2088CE57009E9779 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 724FA67B2088CE57009E9779 /* GameScene.sks */; };
+		724FA67E2088CE72009E9779 /* ModelNoodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FA67D2088CE72009E9779 /* ModelNoodle.swift */; };
+		724FA6802088CE97009E9779 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FA67F2088CE97009E9779 /* GameScene.swift */; };
 		72BE4F6520889AD90038D292 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE4F6420889AD90038D292 /* MapKit.framework */; };
 		72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */; };
 		DE5FC6E81A1DF2EDC601776F /* Pods_SwissKnife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */; };
@@ -43,6 +47,11 @@
 		5D299ECE20888DF300B0F061 /* customTodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTodoCell.swift; sourceTree = "<group>"; };
 		5D7DE0172088B5F100C9F794 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		69C14D5B51A5E00BF7EB34F8 /* Pods-SwissKnife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwissKnife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwissKnife/Pods-SwissKnife.debug.xcconfig"; sourceTree = "<group>"; };
+
+		724FA6792088CE36009E9779 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		724FA67B2088CE57009E9779 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		724FA67D2088CE72009E9779 /* ModelNoodle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNoodle.swift; sourceTree = "<group>"; };
+		724FA67F2088CE97009E9779 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		72BE4F6420889AD90038D292 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72C9229D2088A0BF00D5D32C /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = SOURCE_ROOT; };
 		9C8900BF3D5B523DDF25AF8E /* Pods_SwissKnife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwissKnife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +73,7 @@
 		35D87579207FEC6900E389D4 = {
 			isa = PBXGroup;
 			children = (
+				724FA66A2088CCF5009E9779 /* NoodleHump */,
 				35D87599207FECBB00E389D4 /* Controller */,
 				35D87598207FECAA00E389D4 /* View */,
 				35D87597207FEC9000E389D4 /* Model */,
@@ -132,6 +142,17 @@
 				4B69EECC47CCCC5D21DEB013 /* Pods-SwissKnife.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		724FA66A2088CCF5009E9779 /* NoodleHump */ = {
+			isa = PBXGroup;
+			children = (
+				724FA6792088CE36009E9779 /* Player.swift */,
+				724FA67B2088CE57009E9779 /* GameScene.sks */,
+				724FA67F2088CE97009E9779 /* GameScene.swift */,
+				724FA67D2088CE72009E9779 /* ModelNoodle.swift */,
+			);
+			name = NoodleHump;
 			sourceTree = "<group>";
 		};
 		72BE4F6320889AD90038D292 /* Frameworks */ = {
@@ -211,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D87590207FEC6900E389D4 /* LaunchScreen.storyboard in Resources */,
+				724FA67C2088CE57009E9779 /* GameScene.sks in Resources */,
 				5301DC202088BC4100ADD90F /* GoogleService-Info.plist in Resources */,
 				35D8758D207FEC6900E389D4 /* Assets.xcassets in Resources */,
 				35D8758B207FEC6900E389D4 /* Main.storyboard in Resources */,
@@ -290,8 +312,11 @@
 				35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */,
 				35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */,
 				72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */,
+				724FA6802088CE97009E9779 /* GameScene.swift in Sources */,
 				5D299ECF20888DF300B0F061 /* customTodoCell.swift in Sources */,
+				724FA67E2088CE72009E9779 /* ModelNoodle.swift in Sources */,
 				35090CC6207FEF9300AEA18D /* MapViewController.swift in Sources */,
+				724FA67A2088CE36009E9779 /* Player.swift in Sources */,
 				35090CC4207FEF3F00AEA18D /* TicTacToeViewController.swift in Sources */,
 				35CB2CB22091BF39002189DA /* ScrollingBackground.swift in Sources */,
 			);
