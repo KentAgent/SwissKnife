@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC1207FEEA700AEA18D /* ToDoTableViewController.swift */; };
 		35090CC4207FEF3F00AEA18D /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */; };
 		35090CC6207FEF9300AEA18D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC5207FEF9300AEA18D /* MapViewController.swift */; };
 		35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35090CC7207FF01100AEA18D /* RandomGameViewController.swift */; };
@@ -29,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35090CC1207FEEA700AEA18D /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
 		35090CC5207FEF9300AEA18D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		35090CC7207FF01100AEA18D /* RandomGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGameViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				35D87587207FEC6900E389D4 /* ViewController.swift */,
-				35090CC1207FEEA700AEA18D /* ToDoTableViewController.swift */,
 				35090CC3207FEF3F00AEA18D /* TicTacToeViewController.swift */,
 				35090CC5207FEF9300AEA18D /* MapViewController.swift */,
 				35090CC7207FF01100AEA18D /* RandomGameViewController.swift */,
@@ -305,7 +302,6 @@
 				35D87588207FEC6900E389D4 /* ViewController.swift in Sources */,
 				5D7DE0182088B5F100C9F794 /* TodoViewController.swift in Sources */,
 				35090CC8207FF01100AEA18D /* RandomGameViewController.swift in Sources */,
-				35090CC2207FEEA700AEA18D /* ToDoTableViewController.swift in Sources */,
 				35D87586207FEC6900E389D4 /* AppDelegate.swift in Sources */,
 				72C9229E2088A0BF00D5D32C /* AnnotationModel.swift in Sources */,
 				724FA6802088CE97009E9779 /* GameScene.swift in Sources */,
