@@ -6,6 +6,7 @@
 	<dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
@@ -15,11 +16,19 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+=======
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+>>>>>>> 1d8b758bcdc60c69d22ea34a6d8c29dda357442b
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 		<key>Pods-SwissKnife.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
@@ -42,5 +51,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>
+=======
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>leveldb-library.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>nanopb.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+>>>>>>> 1d8b758bcdc60c69d22ea34a6d8c29dda357442b
 </dict>
 </plist>

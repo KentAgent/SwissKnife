@@ -107,16 +107,3 @@ extension MapViewController {
         return view
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
