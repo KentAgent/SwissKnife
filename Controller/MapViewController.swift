@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate, UISearchBarDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -21,7 +21,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         // Do any additional setup after loading the view.
         setupLocationManager()
         setupMapView()
-        testAnnotation()
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        navigationItem.searchController = searchController
     }
     
     func setupLocationManager() {
@@ -46,12 +49,29 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         mapView.showsUserLocation = true
     }
     
-    func testAnnotation() {
-        let annotation = AnnotationModel(title: "mamma",
-                                         locationName: "här",
-                                         dicipline: "Fint",
-                                         coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
-        mapView.addAnnotation(annotation)
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        let searchRequest = MKLocalSearchRequest()
+        searchRequest.naturalLanguageQuery = searchText
+        let search = MKLocalSearch(request: searchRequest)
+        search.start { (response, error) in
+            if let actualError = error {
+                print("Error: \(actualError)")
+            } else if let actualResponse = response {
+                print("Hits:")
+                for item in actualResponse.mapItems {
+                    print(item)
+                    let annotation = MKPointAnnotation()
+                    if let name = item.name {
+                        annotation.title = name
+                    }
+                    annotation.coordinate = item.placemark.coordinate
+                    let customAnnotation = AnnotationModel(title: annotation.title!, locationName: annotation.title!, dicipline: "", coordinate: annotation.coordinate)
+                    self.mapView.addAnnotation(customAnnotation)
+                }
+            } else {
+                print("Failed to get a response.")
+            }
+        }
     }
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
@@ -59,7 +79,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking]
         location.mapItem().openInMaps(launchOptions: launchOptions)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
